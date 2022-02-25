@@ -5,8 +5,6 @@ import java.util.UUID;
  */
 class Calculator {
 
-    breaking the project pt8
-
     Calculator(){
 
     }
