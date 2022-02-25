@@ -5,6 +5,9 @@ import java.util.Set;
 
 import static org.junit.Assert.*;
 
+/**
+ * Thoroughly tests the Calculator class.
+ */
 public class CalculatorTestThorough {
 
     @Test

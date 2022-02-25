@@ -1,4 +1,5 @@
 pipeline {
+
     environment {
         registry = "brycecooper/calculator-app1"
         registryCredential = 'dockerhub'
