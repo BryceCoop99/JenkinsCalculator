@@ -5,7 +5,7 @@ import java.util.UUID;
  */
 class Calculator {
 
-    breaking the project pt6
+    breaking the project pt7
 
     Calculator(){
 
