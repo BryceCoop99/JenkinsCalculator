@@ -1,5 +1,8 @@
 import java.util.UUID;
 
+/**
+ * A Calculator app that performs calculator functions.
+ */
 class Calculator {
 
     Calculator(){
