@@ -11,28 +11,28 @@ public class Main {
             val2 = Integer.parseInt(args[2]);
         }
 
+        int result = 0;
         switch (testRun) {
             case "add":
-                calculator.add(val1, val2);
+                result = calculator.add(val1, val2);
                 break;
             case "subtract":
-                calculator.subtract(val1, val2);
+                result = calculator.subtract(val1, val2);
                 break;
             case "multiply":
-                calculator.multiply(val1, val2);
+                result = calculator.multiply(val1, val2);
                 break;
             case "divide":
-                calculator.divide(val1, val2);
+                result = calculator.divide(val1, val2);
                 break;
             case "fibonacci":
-                calculator.fibonacciNumberFinder(val1);
+                result = calculator.fibonacciNumberFinder(val1);
                 break;
             case "binary":
-                calculator.intToBinaryNumber(val1);
+                result = Integer.parseInt(calculator.intToBinaryNumber(val1));
                 break;
         }
 
-
+        System.out.println(result);
     }
-
 }
